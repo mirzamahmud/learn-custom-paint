@@ -43,5 +43,14 @@ class DrawRect{
       ),
       rectPaint
     );
+
+    // ------- from left, top, width, height
+    canvas.drawRect(
+      Rect.fromPoints(
+        Offset(size.width / 2, 0),
+        Offset(0, size.height)
+      ),
+      rectPaint
+    );
   }
 }
